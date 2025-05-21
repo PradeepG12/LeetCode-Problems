@@ -1,0 +1,5 @@
+
+Diff-arr for tracking the counting
+-> mark starting point, ending point + 1
+-> using prefix sum add count
+

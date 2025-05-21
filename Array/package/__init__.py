@@ -1,0 +1,1 @@
+from .TriangleType import Solution
