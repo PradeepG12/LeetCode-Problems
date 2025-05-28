@@ -1,0 +1,15 @@
+anchester -> parent nodes (e.g. for 4 -> 2, 1 are anchester) 
+      1
+    2   3
+  4       5
+
+full binary tree = all children should have either 0 or 2
+
+complete binary tree = all levels should completely filled or else left level should filled
+e.g.   
+       1
+    2     3
+   4 5   5
+
+perfect binary tree = all levels are equal
+degenerated tree = every node has same side nodes  left>>left
