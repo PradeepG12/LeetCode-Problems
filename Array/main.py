@@ -13,10 +13,14 @@ print(res2)
 # matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 # print(spiralOrder(matrix))
 
-from package import majorityElement
-res1 = majorityElement([3,2,3])
-print(res1)
-res2 = majorityElement([1])
-print(res2)
-res3 = majorityElement([1,2])
-print(res3)
+# from package import majorityElement
+# res1 = majorityElement([3,2,3])
+# print(res1)
+# res2 = majorityElement([1])
+# print(res2)
+# res3 = majorityElement([1,2])
+# print(res3)
+
+from package import threeSum
+res=threeSum([-1,0,1,2,-1,-4])
+print(res)
