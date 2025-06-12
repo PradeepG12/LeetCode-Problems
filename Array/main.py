@@ -21,6 +21,12 @@ print(res2)
 # res3 = majorityElement([1,2])
 # print(res3)
 
-from package import threeSum
-res=threeSum([-1,0,1,2,-1,-4])
-print(res)
+# from package import threeSum
+# res=threeSum([-1,0,1,2,-1,-4])
+# print(res)
+
+from package import maxAdjacentDistance
+
+print(maxAdjacentDistance([1,2,4]))
+print(maxAdjacentDistance([3,2,-5,-3]))
+print(maxAdjacentDistance([2,1,0]))
