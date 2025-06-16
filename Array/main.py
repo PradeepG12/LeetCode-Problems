@@ -25,8 +25,12 @@ print(res2)
 # res=threeSum([-1,0,1,2,-1,-4])
 # print(res)
 
-from package import maxAdjacentDistance
+# from package import maxAdjacentDistance
 
-print(maxAdjacentDistance([1,2,4]))
-print(maxAdjacentDistance([3,2,-5,-3]))
-print(maxAdjacentDistance([2,1,0]))
+# print(maxAdjacentDistance([1,2,4]))
+# print(maxAdjacentDistance([3,2,-5,-3]))
+# print(maxAdjacentDistance([2,1,0]))
+
+from package import maximumDifference
+data = [[7,1,5,4],[9,4,3,2],[1,5,2,10]]
+print([maximumDifference(ans) for ans in data])
