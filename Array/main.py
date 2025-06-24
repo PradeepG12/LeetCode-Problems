@@ -31,6 +31,10 @@ print(res2)
 # print(maxAdjacentDistance([3,2,-5,-3]))
 # print(maxAdjacentDistance([2,1,0]))
 
-from package import maximumDifference
-data = [[7,1,5,4],[9,4,3,2],[1,5,2,10]]
-print([maximumDifference(ans) for ans in data])
+from package import maximumDifference, twoSum
+# data = [[7,1,5,4],[9,4,3,2],[1,5,2,10]]
+# print([maximumDifference(ans) for ans in data])
+
+print(twoSum(nums = [2,7,11,15], target = 9))
+print(twoSum(nums = [3,2,4], target = 6))
+print(twoSum(nums = [3,3], target = 6))

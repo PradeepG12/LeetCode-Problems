@@ -33,3 +33,23 @@ def threeSum(nums: List[int]) -> List[List[int]]:
     #             res.add(tuple(sorted([nums[i],nums[j],k])))
     #         temp_set.add(nums[j])
     # return [list(t) for t in res]
+
+"""nums = [2,7,11,15], target = 9"""
+
+# brute-force
+def twoSum(nums: List[int], target: int) -> List[int]:
+    n = len(nums)
+    for i in range(n):
+        for j in range(i+1, n):
+            if nums[i]+nums[j] == target:
+                return [i, j]
+
+# better
+def twoSum(nums: List[int], target: int) -> List[int]:
+    n = len(nums)
+    mpp = {}
+    for i in range(n):
+        res = target - nums[i]
+        if res in mpp:
+            return [mpp[res], i]
+        mpp[nums[i]] = i
