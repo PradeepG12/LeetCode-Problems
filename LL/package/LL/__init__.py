@@ -1,4 +1,5 @@
 from package import Node
+from ._876_middle_of_ll import middleNode, ListNode
 
 class LL:
     def __init__(self):
