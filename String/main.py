@@ -1,4 +1,4 @@
-from package import maxDepth, answerString, maxDifference, divideString
+from package import maxDepth, answerString, maxDifference, divideString, possibleStringCount
 
 # print(maxDepth("(1+(2*3)+((8)/4))+1"))
 # data = "bif"
@@ -7,5 +7,8 @@ from package import maxDepth, answerString, maxDifference, divideString
 # print(maxDifference("aaaaabbc"))
 # print(maxDifference("mmsmsym"))
 
-print(divideString(s = "abcdefghi", k = 3, fill = "x"))
-print(divideString(s = "abcdefghij", k = 3, fill = "x"))
+# print(divideString(s = "abcdefghi", k = 3, fill = "x"))
+# print(divideString(s = "abcdefghij", k = 3, fill = "x"))
+
+words = ["abbcccc","abcd","aaaa","aabbcaa","ere"]
+print([possibleStringCount(word) for word in words])
