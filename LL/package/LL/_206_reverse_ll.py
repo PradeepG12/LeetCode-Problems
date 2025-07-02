@@ -20,6 +20,15 @@ def reverseList(head):
             current = current.next
     return new_head
 
+def reverseListRecursion(head):
+
+    if head.next is None:
+        return head
+    new_node = reverseListRecursion(head.next)
+    head.next.next = head
+    head.next = None
+    return new_node
+
 def disp(node):
     while node:
         print(node.val, end=" | ")
