@@ -14,6 +14,7 @@ from package import (
     maxAdjacentDistance,
     twoSum,
     removeDuplicates,
+    findLucky
 )
 
 # matrix = [[1,2,3],[4,5,6],[7,8,9]]
@@ -42,5 +43,8 @@ from package import (
 # print(twoSum(nums = [3,2,4], target = 6))
 # print(twoSum(nums = [3,3], target = 6))
 
-print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
-print(removeDuplicates([1,1,2]))
+# print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
+# print(removeDuplicates([1,1,2]))
+
+data = [[2,2,3,4],[1,2,2,3,3,3]]
+print([findLucky(d) for d in data])
