@@ -1,6 +1,7 @@
 # from package import Node
 from ._876_middle_of_ll import middleNode, ListNode
 from ._206_reverse_ll import reverseList,disp, reverseListRecursion
+from ._142_detect_cycle_II import detectCycle
 
 # class LL:
 #     def __init__(self):
