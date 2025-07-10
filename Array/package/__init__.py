@@ -6,3 +6,5 @@ from ._3423_maxdiff_adj import maxAdjacentDistance
 from ._2016_maxDiffBwIncEle import maximumDifference
 from ._26_remove_dup import removeDuplicates
 from ._1394_lucky_int import findLucky
+from ._1004_MaxConsecutiveOne import longestOnes
+from .lc_424_longRepeatChar import characterReplacement

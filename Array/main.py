@@ -14,7 +14,8 @@ from package import (
     maxAdjacentDistance,
     twoSum,
     removeDuplicates,
-    findLucky
+    findLucky,
+    characterReplacement, longestOnes
 )
 
 # matrix = [[1,2,3],[4,5,6],[7,8,9]]
@@ -46,5 +47,16 @@ from package import (
 # print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
 # print(removeDuplicates([1,1,2]))
 
-data = [[2,2,3,4],[1,2,2,3,3,3]]
-print([findLucky(d) for d in data])
+# data = [[2,2,3,4],[1,2,2,3,3,3]]
+# print([findLucky(d) for d in data])
+
+data = [[[1,1,1,0,0,0,1,1,1,1,0], 2],[[0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], 3]]
+print([longestOnes(ip1, ip2) for ip1, ip2 in data])
+
+
+data = [
+    ["ABAB",2 ],
+    ["AABABBA",1],
+    ["KRSCDCSONAJNHLBMDQGIFCPEKPOHQIHLTDIQGEKLRLCQNBOHNDQGHJPNDQPERNFSSSRDEQLFPCCCARFMDLHADJADAGNNSBNCJQOF", 4]
+]
+print([characterReplacement(d1, d2) for d1, d2 in data])
