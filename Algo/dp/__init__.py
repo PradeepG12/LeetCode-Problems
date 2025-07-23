@@ -1,0 +1,1 @@
+from .max_val_knapsack_weight import knapsackBetter
