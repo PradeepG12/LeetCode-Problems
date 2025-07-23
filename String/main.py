@@ -1,4 +1,5 @@
 from package import maxDepth, answerString, maxDifference, divideString, possibleStringCount, kthCharacter, lengthOfLongestSubstring, makeFancyString
+from package import maximumGain
 
 # print(maxDepth("(1+(2*3)+((8)/4))+1"))
 # data = "bif"
@@ -19,5 +20,10 @@ from package import maxDepth, answerString, maxDifference, divideString, possibl
 # string = ["abcabcbb", "bbbbb", "pwwkew"]
 # print([lengthOfLongestSubstring(s) for s in string])
 
-string = ["leeetcode","aaabaaaa","aab"]
-print([makeFancyString(s) for s in string])
+# string = ["leeetcode","aaabaaaa","aab"]
+# print([makeFancyString(s) for s in string])
+
+data = [{"s": "cdbcbbaaabab", "x": 4, "y": 5},{"s" : "aabbaaxybbaabb", "x" : 5, "y" : 4}]
+method = maximumGain
+
+print([method(d["s"], d["x"], d["y"]) for d in data])
