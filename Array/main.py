@@ -7,7 +7,7 @@ res2 = soln.subarraySum(nums = [1,2,3], k = 3)
 print(res1)
 print(res2)
 """
-from package2D import spiralOrder
+from package2D import spiralOrder, pascal_triangle
 from package import (
     majorityElement, 
     threeSum, 
@@ -50,13 +50,15 @@ from package import (
 # data = [[2,2,3,4],[1,2,2,3,3,3]]
 # print([findLucky(d) for d in data])
 
-data = [[[1,1,1,0,0,0,1,1,1,1,0], 2],[[0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], 3]]
-print([longestOnes(ip1, ip2) for ip1, ip2 in data])
+# data = [[[1,1,1,0,0,0,1,1,1,1,0], 2],[[0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], 3]]
+# print([longestOnes(ip1, ip2) for ip1, ip2 in data])
 
 
-data = [
-    ["ABAB",2 ],
-    ["AABABBA",1],
-    ["KRSCDCSONAJNHLBMDQGIFCPEKPOHQIHLTDIQGEKLRLCQNBOHNDQGHJPNDQPERNFSSSRDEQLFPCCCARFMDLHADJADAGNNSBNCJQOF", 4]
-]
-print([characterReplacement(d1, d2) for d1, d2 in data])
+# data = [
+#     ["ABAB",2 ],
+#     ["AABABBA",1],
+#     ["KRSCDCSONAJNHLBMDQGIFCPEKPOHQIHLTDIQGEKLRLCQNBOHNDQGHJPNDQPERNFSSSRDEQLFPCCCARFMDLHADJADAGNNSBNCJQOF", 4]
+# ]
+# print([characterReplacement(d1, d2) for d1, d2 in data])
+
+print(pascal_triangle(4))
