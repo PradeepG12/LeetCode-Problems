@@ -1,0 +1,1 @@
+from .lc_547_no_of_provinces import findCircleNum, data as data_547
