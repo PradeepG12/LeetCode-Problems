@@ -2,7 +2,7 @@
 from ._876_middle_of_ll import middleNode, ListNode
 from ._206_reverse_ll import reverseList,disp, reverseListRecursion
 from ._142_detect_cycle_II import detectCycle
-
+from .lc_234_palindrome import isPalindrome, data as data_234
 # class LL:
 #     def __init__(self):
 #         self.head = None

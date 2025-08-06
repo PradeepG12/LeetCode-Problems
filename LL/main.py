@@ -12,17 +12,19 @@ from package import DLL, ReverseDll
 # rdll.reverse()
 # rdll.display_forward()
 
-from package import middleNode, ListNode,reverseList, disp, reverseListRecursion, detectCycle
+from package import middleNode, ListNode,reverseList, disp, reverseListRecursion, detectCycle, isPalindrome, data_234
 node = ListNode
-n6 = node(6)
-n5 = node(5, n6)
+
+n5 = node(5)
 n4 = node(4, n5)
 n3 = node(3, n4)
-n2 = node(2, n3)
-n1 =node(1, n2)
+n2 = node(4, n3)
+n1 =node(5, n2)
 disp(n1)
 # disp(reverseList(n1))
 # disp(reverseListRecursion(n1))
 
-n6.next = n3
-print(detectCycle(n1).val)
+# n6.next = n3
+# print(detectCycle(n1).val)
+d = isPalindrome(n1)
+print(d)
