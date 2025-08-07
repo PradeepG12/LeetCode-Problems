@@ -1,4 +1,4 @@
-from package import TreeNode, Solution
+from package import TreeNode, maxDepth
 
 
 Node = TreeNode
@@ -11,7 +11,9 @@ root.left.left.right = Node(2)
 root.right.left = Node(13)
 root.right.right = Node(4)
 
-sol = Solution()
-print(sol.preorderTraversal(root))
-print(sol.inorderTraversal(root))
-print(sol.postorderTraversal(root))
+# sol = Solution()
+# print(sol.preorderTraversal(root))
+# print(sol.inorderTraversal(root))
+# print(sol.postorderTraversal(root))
+d = maxDepth(root)
+print(d)

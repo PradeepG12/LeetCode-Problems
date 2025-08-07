@@ -107,7 +107,7 @@ root = Tree(val=10)
 root.left = Tree(val=20)
 root.right = Tree(val=30)
 root.right.left = Tree(val=40)
-
+"""
 root.in_order(root)
 print()
 root.pre_order(root)
@@ -115,3 +115,4 @@ print()
 root.post_order(root)
 print()
 root.bfs(root)
+"""
