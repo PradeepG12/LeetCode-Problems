@@ -42,3 +42,19 @@ def diameterOfBinaryTree(root: Optional[TreeNode]) -> int:
         return max(left, right)+1
     _helper(root)
     return maxi
+
+def hasPathSum(root: Optional[TreeNode], targetSum: int) -> bool:
+    def _helper(root, tot):
+        if not root:
+            return False
+        tot += root.val
+        if tot == targetSum :
+            if not (root.left and root.right):
+                return True
+            return False
+        elif tot > targetSum: return False
+        _helper(root.left, tot)
+        _helper(root.right, tot)
+        return False
+    return _helper(root, 0)
+        
