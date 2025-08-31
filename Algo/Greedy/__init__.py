@@ -1,2 +1,2 @@
 from .ActivitySelection import findActivitySelection
-from ._435_NonOverlapIntervals import eraseOverlapIntervals
+from .intervals._435_NonOverlapIntervals import eraseOverlapIntervals
